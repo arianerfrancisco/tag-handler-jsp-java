@@ -13,4 +13,4 @@
         Para introduzir novas variáveis de script na página
         Para filtrar ou transformar o conteúdo do tag (corpo), até interpretando-o em outra linguagem (SQL, ...)
         Para fazer iterações sem usar scriptlets
-   - Tags são tipicamente altamente parametrizados para que sejam o mais genéricos possível
+    - Tags são tipicamente altamente parametrizados para que sejam o mais genéricos possível
