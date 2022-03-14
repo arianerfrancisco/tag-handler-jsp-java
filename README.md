@@ -2,7 +2,7 @@
 
  ![rdsds](https://user-images.githubusercontent.com/72419533/158225278-ac6596e6-44c0-4815-8996-a5c227c393f9.png)
 
-# Criando uma Tag Handler
+# Configurando uma Tag Handler
 
 - A configuração é feita em um arquivo .tdl (tag library descriptor), dentro de WEB-INF
 
