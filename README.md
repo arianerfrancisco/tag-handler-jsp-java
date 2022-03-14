@@ -1,14 +1,16 @@
-# Criando uma Tag Handler
+# Tag Handlers
 
- ![rdsds](https://user-images.githubusercontent.com/72419533/158225278-ac6596e6-44c0-4815-8996-a5c227c393f9.png)
+    - A funcionalidade de um tag é implementada com uma classe Java chamada o "tag handler"
+    - O tag handler é um JavaBean
+        Por exemplo, os atributos do tag são propriedades do bean
+    - Um Tag Library Descriptors (TLDs) é um arquivo XML que descreve uma biblioteca de tags contendo um ou mais tags
+        A diretiva JSP "taglib" é usada para importar os tags em qualquer página JSP que queiram usá-los
 
-# Configurando uma Tag Handler
+# Usos típicos de tags
 
-- A configuração é feita em um arquivo .tdl (tag library descriptor), dentro de WEB-INF
-
-![fdfdfd](https://user-images.githubusercontent.com/72419533/158225437-cd6df69c-3b3a-48be-a409-e8c1391e3e4c.png)
-
-
-# Utilizando uma Tag Handler
-
-![fdfdf](https://user-images.githubusercontent.com/72419533/158225499-2b679cd1-7fcc-47f5-9c4d-6dabef272578.png)
+    - Tags são tipicamente usados para:
+        Esconder a complexidade de acessar fontes de dados do autor da página que freqüentemente não conhece bem o modelo de dados da empresa
+        Para introduzir novas variáveis de script na página
+        Para filtrar ou transformar o conteúdo do tag (corpo), até interpretando-o em outra linguagem (SQL, ...)
+        Para fazer iterações sem usar scriptlets
+   - Tags são tipicamente altamente parametrizados para que sejam o mais genéricos possível
